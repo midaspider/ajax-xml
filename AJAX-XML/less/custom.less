@@ -1,0 +1,191 @@
+// GLOBAL STYLES
+// -------------------------
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	line-height: 1.4;
+	overflow-x: hidden;
+	min-height: 900px;
+}
+
+
+.row > div, header, nav, aside {
+	box-shadow: inset 1px -1px 1px yellow, inset -1px 1px 1px yellow;
+}
+
+
+@footer-height: 30;
+
+// LAYOUT
+// -------------------------
+/* Wrapper for page content to push down footer */
+.wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin-bottom: @footer-height*(-1px);
+	/* Pad bottom by footer height */
+	padding-bottom: @footer-height*(1px);
+	/* hack to prevent font boosting on android */
+	max-height: 999999px;
+}
+
+
+
+// HEADER
+// -------------------------
+
+h1, h2 {
+	font-size: 21px;
+	font-weight: 700;
+	letter-spacing: .25em;
+}
+.logo>h2 {
+	text-transform: uppercase;
+}
+
+
+
+
+// NAVIGATION
+// -------------------------
+#nav {
+	margin: 50px 0;
+	ul {
+		//margin-left: 0;
+		padding-left: 0;
+		list-style: none;
+		font-size: 17px;
+		text-transform: uppercase;
+		line-height: 1.8;
+		ul {
+			padding-left: 15px;
+		}
+	}
+	& li.active a {
+		color: black;
+		background: yellow;
+	}
+}
+
+#prev, #next {
+  display: inline-block;
+  cursor: pointer;
+	margin-bottom: 50px;
+  margin-right: 10px;
+  &.disabled {
+    color: #999;
+    cursor: default;
+    text-decoration: none;
+  }
+}
+
+
+// BUTTONS
+// -------------------------
+
+
+
+// CONTENT
+// -------------------------
+#thumbs {
+	& .row {
+		//background: red;
+		&>div {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+	}
+	& .active a {
+		background: black;
+		display: block;
+		img {
+			opacity: .5;
+		}
+	}
+	img {
+		//opacity: 0;
+	}
+}
+#content {
+	img {
+		&.fadein, &.fadeout {
+			-webkit-transition: opacity 1s ease;
+			-moz-transition: opacity 1s ease;
+			-o-transition: opacity 1s ease;
+			transition: opacity 1s ease;
+			opacity: 0;
+		}
+		&.fadein {
+		    opacity: 1;
+		}
+	}
+}
+
+
+
+
+
+
+// CAROUSEL
+// -------------------------
+
+
+
+
+// FOOTER
+// -------------------------
+
+.footer {
+	/* Set the fixed height of the footer here */
+	height: @footer-height*(1px);	
+}
+
+
+
+
+
+
+// RESPONSIVE CSS
+// -------------------------
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm) {
+	
+	.wrap {
+		margin-bottom: @footer-height*(-1px);
+		padding-bottom: @footer-height*(1px);
+	}
+	.footer {
+		height: @footer-height*(1px);
+	}
+	.logo>h2 {
+		letter-spacing: .075em;
+	}
+
+	.row > div, header, nav, aside {
+		box-shadow: inset 1px -1px 1px cyan, inset -1px 1px 1px cyan;
+	}
+
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md) {	
+	
+	.logo>h2 {
+		letter-spacing: .25em;
+	}
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg) {
+
+	
+}

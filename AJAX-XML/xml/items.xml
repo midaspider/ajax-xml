@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WEBSITE>
+	<PAGE>
+		<TITLE>Gallery</TITLE>
+		<URL>gallery</URL>
+		<GALLERY>
+			<ARTWORK>
+				<TITLE>One</TITLE>
+				<URL>one</URL>
+				<GENRE>numbers</GENRE>
+				<YEAR>2014</YEAR>
+				<MEDIUM>Oil on linen</MEDIUM>
+				<HEIGHT>75</HEIGHT>
+				<WIDTH>85</WIDTH>
+				<AVAILABILITY>£5000</AVAILABILITY>
+				<IMAGE>one.jpg</IMAGE>
+			</ARTWORK>
+			<ARTWORK>
+				<TITLE>Two</TITLE>
+				<URL>two</URL>
+				<GENRE>numbers</GENRE>
+				<YEAR>2012</YEAR>
+				<MEDIUM>Oil on canvas</MEDIUM>
+				<HEIGHT>60</HEIGHT>
+				<WIDTH>70</WIDTH>
+				<AVAILABILITY>£3000</AVAILABILITY>
+				<IMAGE>two.jpg</IMAGE>
+			</ARTWORK>
+			<ARTWORK>
+				<TITLE>A</TITLE>
+				<URL>a</URL>
+				<GENRE>letters</GENRE>
+				<YEAR>2012</YEAR>
+				<MEDIUM>Oil on canvas</MEDIUM>
+				<HEIGHT>90</HEIGHT>
+				<WIDTH>90</WIDTH>
+				<AVAILABILITY>£3000</AVAILABILITY>
+				<IMAGE>a.jpg</IMAGE>
+			</ARTWORK>
+			<ARTWORK>
+				<TITLE>Three</TITLE>
+				<URL>three</URL>
+				<GENRE>numbers</GENRE>
+				<YEAR>2014</YEAR>
+				<MEDIUM>Oil on linen</MEDIUM>
+				<HEIGHT>70</HEIGHT>
+				<WIDTH>100</WIDTH>
+				<AVAILABILITY>£5000</AVAILABILITY>
+				<IMAGE>three.jpg</IMAGE>
+			</ARTWORK>
+			<ARTWORK>
+				<TITLE>Four</TITLE>
+				<URL>four</URL>
+				<GENRE>numbers</GENRE>
+				<YEAR>2014</YEAR>
+				<MEDIUM>Oil on linen</MEDIUM>
+				<HEIGHT>80</HEIGHT>
+				<WIDTH>80</WIDTH>
+				<AVAILABILITY>£5000</AVAILABILITY>
+				<IMAGE>four.jpg</IMAGE>
+			</ARTWORK>
+      <ARTWORK>
+        <TITLE>B</TITLE>
+        <URL>b</URL>
+        <GENRE>letters</GENRE>
+        <YEAR>2014</YEAR>
+        <MEDIUM>Oil on linen</MEDIUM>
+        <HEIGHT>80</HEIGHT>
+        <WIDTH>80</WIDTH>
+        <AVAILABILITY>£5000</AVAILABILITY>
+        <IMAGE>b.jpg</IMAGE>
+      </ARTWORK>
+      <ARTWORK>
+        <TITLE>C</TITLE>
+        <URL>c</URL>
+        <GENRE>letters</GENRE>
+        <YEAR>2014</YEAR>
+        <MEDIUM>Oil on linen</MEDIUM>
+        <HEIGHT>80</HEIGHT>
+        <WIDTH>80</WIDTH>
+        <AVAILABILITY>£5000</AVAILABILITY>
+        <IMAGE>c.jpg</IMAGE>
+      </ARTWORK>
+		</GALLERY>
+	</PAGE>
+	<PAGE>
+		<TITLE>About</TITLE>
+		<URL>about</URL>
+		<CONTENT>
+	        <p>b. 1974. Lives and works in Kent, UK.</p>
+	        <h3>Education</h3>
+	        <p>Coventry University, BA(Hons) Graphic Design, 1996<br />
+	    	Coventry University, Foundation Diploma in Art, 1993</p>
+	    	<h3>Exhibitions</h3>
+	    	<p>2014 Fairfax Gallery, Tunbridge Wells, UK<br />
+			<del>2014</del> <em>Figure</em> Cameron Contempory, Hove, UK<br />
+			2011 <em>Seeing is Believing</em> – London, UK<br />
+			<del>2011</del> Brighton Art Fair – Brighton, UK<br />
+			<del>2011</del> Artist Open Houses – Brighton, UK<br />
+			2010 Brighton Art Fair – Brighton, UK<br />
+			<del>2010</del> Artist Open Houses – Hove, UK<br />
+			2009 <em>Boxers</em> – Hove, UK<br />
+			2008 Wall Space Gallery, Ottawa, ONT<br />
+			<del>2008</del> <em>Figures &amp; Portraits</em> – Ottawa, ONT<br />
+			<del>2008</del> Art In The Park – Ottawa, ONT</p>
+			<h3>Collections</h3>
+			<p>Standard Chartered Bank, London, UK<br />
+			Carroll Financial Associates, Charlotte, NC</p>
+		</CONTENT>
+	</PAGE>
+	<PAGE>
+		<TITLE>Contact</TITLE>
+		<URL>contact</URL>
+		<CONTENT>
+	        <p>For all inquiries, including pricing and availability for commissions.</p>
+	        <p>078 1134 0089</p>
+		</CONTENT>
+	</PAGE>
+	<PAGE>
+		<TITLE>Blog</TITLE>
+		<URL>blog</URL>
+		<ARTICLE>
+			<TITLE></TITLE>
+		</ARTICLE>
+	</PAGE>
+</WEBSITE>
